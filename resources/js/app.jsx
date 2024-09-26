@@ -1,12 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Home from '../views/modules/homepage';
 
-function App() {
-    return (
-        <div>
-            <h1>Hello, React with Vite in Laravel!</h1>
-        </div>
-    );
-}
-
-ReactDOM.createRoot(document.getElementById('app')).render(<App />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Home />);

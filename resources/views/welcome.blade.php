@@ -7,9 +7,10 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <div id="app"></div>
+    <div id="root"></div>
 
     @viteReactRefresh
     @vite('resources/js/app.jsx')
+    {{-- <script type="module" src="{{ mix('resources/js/app.js') }}"></script> --}}
 </body>
 </html>
