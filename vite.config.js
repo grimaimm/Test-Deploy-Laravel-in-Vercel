@@ -10,8 +10,8 @@ export default defineConfig({
         }),
         react(),
     ],
-    base: "https://lareact.vercel.app/", // Set base URL untuk production
-    server: {
-        https: true, // Pastikan HTTPS digunakan di lokal juga
+    build: {
+        outDir: "public/build", // Pastikan output build berada di folder 'public/build'
+        assetsDir: "assets", // Aset akan berada di dalam 'public/build/assets'
     },
 });
