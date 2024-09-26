@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel with React</title>
-    @vite('resources/css/app.css')
     @viteReactRefresh
-    @vite('resources/js/app.jsx')
+    @vite(['resources/js/app.jsx', 'resources/css/app.css'])
 </head>
 <body>
-    <div id="root"></div>
+    <div id="app"></div>
 </body>
 </html>

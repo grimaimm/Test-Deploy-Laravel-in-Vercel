@@ -1,12 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Home from './Pages/Home';
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import Home from './Pages/Home';
 
-// const rootElement = document.getElementById('root');
+// // const rootElement = document.getElementById('root');
 
-// if (rootElement) {
-//     const root = ReactDOM.createRoot(rootElement);
-//     root.render(<Home />);
-// }
+// // if (rootElement) {
+// //     const root = ReactDOM.createRoot(rootElement);
+// //     root.render(<Home />);
+// // }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<Home />);
+// ReactDOM.createRoot(document.getElementById("root")).render(<Home />);
+
+import ReactDOM from 'react-dom/client';		
+import HelloWorld from './Pages/components/HelloWorld';
+
+ReactDOM.createRoot(document.getElementById('app')).render(		
+    <HelloWorld />		
+);
