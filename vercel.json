@@ -8,21 +8,16 @@
     "routes": [
         {
             "src": "/img/(.*)",
-            "dest": "/public/img/"
+            "dest": "public/img/"
         },
         {
-            "src": "/css/(.*)",
-            "dest": "/public/css/"
-        },
-        {
-            "src": "/js/(.*)",
-            "dest": "/public/js/"
+            "src": "/(css|js)/(.*)",
+            "dest": "public/$1/$2"
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
-        },
-        { "src": "/build/(.*)", "dest": "/public/build/" }
+            "dest": "api/index.php"
+        }
     ],
     "env": {
         "APP_CONFIG_CACHE": "/tmp/config.php",
