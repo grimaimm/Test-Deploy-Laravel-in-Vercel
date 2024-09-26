@@ -10,10 +10,10 @@
 // // }
 
 // ReactDOM.createRoot(document.getElementById("root")).render(<Home />);
-
+import '../css/app.css';
 import ReactDOM from 'react-dom/client';		
 import HelloWorld from './Pages/components/HelloWorld';
 
 ReactDOM.createRoot(document.getElementById('app')).render(		
-    <HelloWorld />		
+    <HelloWorld />
 );

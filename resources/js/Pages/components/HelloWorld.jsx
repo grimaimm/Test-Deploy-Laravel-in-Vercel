@@ -1,5 +1,5 @@
 export default function HelloWorld() {
   return (
-      <div>Hello World from React.</div>
+      <h1 className="text-3xl">Hello World from React.</h1>
   )
 }
