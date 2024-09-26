@@ -11,6 +11,5 @@
 
     @viteReactRefresh
     @vite('resources/js/app.jsx')
-    {{-- <script type="module" src="{{ mix('resources/js/app.js') }}"></script> --}}
 </body>
 </html>
